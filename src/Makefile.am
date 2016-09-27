@@ -1,8 +1,8 @@
-PACKAGE := rc 
+PACKAGE := psc
 SUBDIRS = 
 
 # type in sources here
-SOURCES = Expr.ml Parser.ml Driver.ml
+SOURCES = Syntax.ml Driver.ml
 MLI = 
 
 include $(top_srcdir)/m4/Makefile.am.vars

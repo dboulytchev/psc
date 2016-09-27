@@ -1,4 +1,4 @@
-SUBDIRS = src runtime
+SUBDIRS = src
 
 .PHONY: doc
 doc:
